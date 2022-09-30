@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/6d219866b6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./img/favicon.ico" />
+  <title>Flavo</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar_hamburger">
+        <div class="navbar_bars-container">
+          <span class="navbar_bar"></span>
+          <span class="navbar_bar"></span>
+          <span class="navbar_bar"></span>
+        </div>
+      </div>
+      <ul class="navbar_menu">
+        <li class="navbar_link">Home</li>
+        <li class="navbar_link">Produtos</li>
+        <li class="navbar_link">Ofertas</li>
+        <li class="navbar_link">Contato</li>
+      </ul>
+    </nav>
+    <h1 class="logo">+Food</h1>
+    <div class="carrinho-compra">
+      <img src="./img/carrinho-compra.png" alt="carrinho de compra" />
+    </div>
+  </header>
+  <main>
+    <section class="produto">
+      <div class="imagem_produto">
+        <i class="fa-solid fa-angle-left cursorOff"></i>
+        <img src="./img/intensity.png" alt="intensity" class="images_img" />
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+  
+      <div class="preco_produto">
+        <h2 class="nome_produto">Intenso</h2>
+        <p class="valor_preco_produto">R$15,90</p>
+      </div>
+  
+      <div class="descricao_produto">
+        <h3>INGREDIENTES:</h3>
+        <p class="conteudo_descricao_produto">Chili, orégano, açafrão, páprica</p>
+      </div>
+  
+      <div class="descricao_produto">
+        <h3>SOBRE:</h3>
+        <p>Este tempero vai adicionar um sabor inigualável a qualquer alimento, transformando sua refeição em uma obra prima culinária.</p>
+      </div>
+  
+      <div class="peso_produto">
+        <div>
+          <input type="radio" name="choose" id="mini" checked />
+          <label for="mini">MINI (75g)</label>
+        </div>
+        <div>
+          <input type="radio" name="choose" id="normal" />
+          <label for="normal">NORMAL (150g)</label>
+        </div>
+      </div>
+  
+      <div class="quantidade_itens">
+        <button>-</button>
+        <p class="adicionarItem">1</p>
+        <button>+</button>
+      </div>
+  
+      <button class="produto_adicionado-btn">Adicionar ao carrinho</button>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
